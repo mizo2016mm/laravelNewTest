@@ -30,7 +30,7 @@
             </div><br>
              {{csrf_field()}}
              <div class="form-group">
-                 {!! Form::submit('Create Post',['class'=>'btn btn-primary']) !!}
+                 {!! Form::submit('Create User',['class'=>'btn btn-primary']) !!}
              </div>
      {!! Form::close() !!}
      @include('includes.form_error')
